@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    $to = "youremail@example.com";  // Cambia por tu correo
+    $to = "valentinavillarm8@gmail.com";  // Cambia por tu correo
     $subject = "Nuevo mensaje de contacto";
     $body = "Nombre: $name\nCorreo: $email\nMensaje:\n$message";
     $headers = "From: no-reply@example.com";
