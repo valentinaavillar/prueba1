@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Verificar si el correo tiene un formato válido
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Aquí colocas tu correo para recibir los mensajes
-            $to = "youremail@example.com";  // Cambia esto por tu dirección de correo electrónico
+            $to = "valentinavillarm8@gmail.com";  // Cambia esto por tu dirección de correo electrónico
             $subject = "Nuevo mensaje de contacto desde tu página web";
             $body = "Nombre: $name\nCorreo electrónico: $email\nMensaje:\n$message";
             $headers = "From: $email";  // El correo que se muestra en el campo "De"
